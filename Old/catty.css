@@ -1,0 +1,83 @@
+ body {
+    background-color: rgb(248, 244, 203);
+    margin: 2px;
+    border-color: aliceblue;
+    border-width: 0px;
+    color:white;
+    border-style: solid;
+ }
+
+ .top{
+    font-size:50pt; 
+    text-shadow:-2px 2px black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:pink;
+    border-bottom-width: 2px;
+    padding-top: 20px;
+    padding-bottom:  5px;
+    padding-left:  5px;
+    padding-right:  5x;
+    border-bottom-style:solid ;
+    
+
+ }
+ 
+ .topalt{ /* for the subheader w/ links, needs to be separate from topother since the background and borders need to change*/
+    
+    border-width: 0px;
+    border-left-width:1px;
+    border-right-width:1px;
+    
+    background-color:rgb(228, 167, 177);
+    padding-left: 9.5%;
+    padding-right: 9.5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    text-shadow: -2px 2px, rgb(216, 108, 126);
+
+    /*margin-right: 2px;
+    margin-left: 2px;
+    */
+    
+ }
+
+ .topother{
+    display: flex;
+    
+   justify-content: space-evenly ;
+  
+   background-color:pink;
+    border: white 1px solid;
+    margin:0;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 0px;
+    
+ }
+.imgScr{ /*image container*/
+    
+    border-radius: 0%;
+    
+    display:flex;
+    flex: column;
+    justify-content: center;
+    align-content:center;
+    margin: 20px;
+    padding:0px; 
+}
+
+.disp{ /*image mods*/
+   
+    width:30%;
+    
+}
+
+
+
+ html{
+    height:200vh;
+
+ }

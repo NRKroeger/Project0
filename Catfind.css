@@ -1,0 +1,84 @@
+:root {
+--mainBg:#d9e9ff ;
+--mainelement:#ffbbbb;
+--mainAlt:#f87979;
+--mainBord:white;
+--textC:#fffff2;
+--shadC:#333333;
+background-color: var(--mainBg);
+color:var(--textC);
+margin:1px;
+
+
+}
+
+.top{
+    text-shadow: -1px 1px var(--shadC);
+    border: solid var(--textC);
+    border-width: 1px;
+    border-bottom-width:2px;
+    border-left-width:2px ;
+    padding: 4px 2px 5px 5px;
+    background-color: var(--mainelement);
+}
+#titled{
+    font-size: 50px;
+}
+#subtitled{
+    font-size:24px;
+}
+.contentDrop{
+
+    margin-top: 8px;
+    background-color: var(--mainelement);
+    border: solid var(--textC);
+    border-width: 0px;
+    border-left: 1px;
+    border-right:1px ;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 5px;
+    font-size: 18pt;
+}
+
+.bttn{
+    margin:0px;
+    background-color: var(--mainAlt);
+    border: 1px solid;
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: var(--textC);
+    
+}
+/*grid handlers*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 25vw);
+    grid-gap: 5px;
+    background-color: var(--mainelement);
+    margin-top: 10px;
+    border: solid var(--textC);
+}
+
+.iMag{
+
+    
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+/*grid handlers*/
+
+
+
+
+.bttn:hover{
+    
+   
+    color: var(--mainelement);
+    
+}
